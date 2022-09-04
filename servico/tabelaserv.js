@@ -46,4 +46,4 @@ t.innerHTML = html;
 let servico = prompt("Qual o serviço a ser feito? (1, 2, 3)?");
 let prazo = prompt("Qual a qtd de horas para entrega?(0-24h, 1-48h, 2-72h)?");
 
-document.write(tabela[prazo][servico])
+document.write("O preço do servico será: "+ tabela[prazo][servico])
