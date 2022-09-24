@@ -16,7 +16,9 @@ let e;
 
 //e = document.querySelector('span');
 //e = document.querySelector('div .row');
-e = document.querySelector('input#task');
+//e = document.querySelector('input#task');
+//e = document.querySelector('li:first-child').innerText
+// e = document.querySelector('li:nth-child(4)').innerText pegar com o numero""4"
 
 
 
