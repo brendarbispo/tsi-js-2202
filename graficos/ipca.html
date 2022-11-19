@@ -8,19 +8,25 @@
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.1/morris.css">
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.1/morris.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.1/morris.min.js"></script>    
     <title>IPCA</title>
 </head>
 <body>
     <div class="container">
         <div class="row">
-            <div class="col">
-                <div id="ipca">
-                    <button type="button"> Mostrar IPCA </button>
-                </div>
+            <div  class="col">
+                <div id="ipca"></div>
             </div>
         </div>
-    </div>
-</body>
-<script src="ipca.js"></script>
-</html>
+        <div class="row">
+            <div  class="col"></div>
+            <div  class="col">
+-                <button type="button" class="btn btn-primary">Mostrar IPCA</button>
++                <button type="button" 
++                    class="btn btn-primary">
++                        Mostrar IPCA do ano:
++                </button> 
++                <input type="text" id="ano">
+            </div>
+            <div  class="col"></div>
+        </div>
